@@ -92,7 +92,10 @@ all of my data was in one place.
 The Annie E. Casey Foundation, KIDS COUNT Data Center,
 <https://datacenter.kidscount.org>.
 
-Minnesota Department of Employment and Economic Development
+Department of Employment and Economic Development (DEED) (2021). Monthly
+Employment. State and National Employment and Unemployment.
+<https://mn.gov/deed/data/current-econ-highlights/state-national-employment.jsp>
+Accessed 2021-03-25
 
 RStudio Team (2020). RStudio: Integrated Development Environment for R.
 RStudio, PBC, Boston, MA URL <http://www.rstudio.com/>.
@@ -106,10 +109,5 @@ Software, 4(43), 1686, <https://doi.org/10.21105/joss.01686>
 
 Hadley Wickham and Jennifer Bryan (2019). readxl: Read Excel Files. R
 package version 1.3.1. <https://CRAN.R-project.org/package=readxl>
-
-Department of Employment and Economic Development (DEED) (2021). Monthly
-Employment. State and National Employment and Unemployment.
-<https://mn.gov/deed/data/current-econ-highlights/state-national-employment.jsp>
-Accessed 2021-mm-dd
 
 ## References
