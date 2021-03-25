@@ -5,13 +5,79 @@ date: "2021-03-09"
 output: github_document
 ---
 
+Welcome to my lab poster!
 
-First off, I clicked on the KIDS COUNT website link from Dr. Merkord's github list. The URL is included below:
+## Abstract
+
+## Introduction
+
+## Methods
+
+### Data Acquisition
+
+I'm going to start off by explaining where I found and obtained all of my data from.
+
+First off, I clicked on the KIDS COUNT (Annie E. Casey Foundation 2021) website link from Dr. Merkord's github list. The URL is included below:
 
 https://datacenter.kidscount.org/
 
 Then I clicked on the state of Minnesota to look for things specific to the state. I found my data set under the Poverty tab, with the name as Entire Population Living in Poverty.
 
 After clicking on the data set, I clicked by county to show all of the counties since my data set is for Minnesota counties. I wanted all of the county data and not just the state.
+
+I then clicked on raw data, which created an excel spreadsheet for me. I then went into my folders and put the spreadsheet into my data folder under my R studio project to save it onto R Studio. I was then able to open it and process it from there.
+
+Before we get into how I processed the data, I had another data set that I used. But I got it from a different website. I looked this up myself, searching unemployment rate mn dataset into google.
+
+I then clicked on the second link that said State and National Employment and Unemployment (DEED) 2021. The URL is listed below:
+
+https://mn.gov/deed/data/current-econ-highlights/state-national-employment.jsp
+
+This link brought me to the Employment and Economic Development section of the Minnesota Government website.
+
+I scrolled to the bottom and clicked on, 'Select this link for more data' and it brought me to a place to select data.
+
+I examined the list and clicked on Minnesota Counties, and then hit submit. I was then brought to a list of Minnesota counties. I wasn't able to select all of them at the same time, so I held the Ctrl button and I clicked on the first forty counties.
+
+I then clicked on current statistics and it brought me to a list of the counties with a lot of different columns. Such as a graph, the area, employment, unemployment and the unemployment rate. In order to find the data of all the counties selected, I had to click See Historical Data for these areas at the bottom of the list.
+
+Once I clicked on this, I was brought to the data set table that had the list of all the counties I had clicked on with their unemployment rate listed by month. I then set the years of which I needed, being from 2000-2012, and changed the frequency from monthly to annually. I then clicked download data, where I then downloaded the excel file.
+
+I did the same thing with the poverty data to bring it into R Studio through the data folder. I did the whole process with getting the county data the same way for the next forty seven counties I had left over.
+
+### Data Preparation
+
+To start analyzing the data, I used R version 4.0.3 (R Core Team 2020), RStudio Version 1.3.1093 (RStudio Team 2020), and then the packages Tidyverse (Wickham et al., 2019), and readxl (Hadley Wickham and Jennifer Bryan 2019).
+
+Before I could start analyzing the data, I had to put the data into RStudio. To do that, I opened the file folder on my laptop and found the excel files under downloads. I dragged the files into the folder for my project, titled EDA. To which I then put into the data folder so that all of my data was in one place.
+
+## Results
+
+## Discussion
+
+## Literature Cited
+
+The Annie E. Casey Foundation, KIDS COUNT Data Center, https://datacenter.kidscount.org.
+
+Minnesota Department of Employment and Economic Development
+
+RStudio Team (2020). RStudio: Integrated
+  Development Environment for R. RStudio, PBC,
+  Boston, MA URL http://www.rstudio.com/.
+
+R Core Team (2020). R: A language and environment for statistical computing. R Foundation for Statistical Computing, Vienna, Austria. URL https://www.R-project.org/.
+
+Wickham et al., (2019). Welcome to the tidyverse.
+  Journal of Open Source Software, 4(43), 1686,
+  https://doi.org/10.21105/joss.01686
+  
+Hadley Wickham and Jennifer Bryan (2019). readxl:
+  Read Excel Files. R package version 1.3.1.
+  https://CRAN.R-project.org/package=readxl
+
+Department of Employment and Economic Development (DEED) (2021). Monthly Employment. State and National Employment and Unemployment. https://mn.gov/deed/data/current-econ-highlights/state-national-employment.jsp Accessed 2021-mm-dd
+
+
+## References
 
 
