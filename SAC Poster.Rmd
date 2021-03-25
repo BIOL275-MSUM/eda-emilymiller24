@@ -93,7 +93,8 @@ The Annie E. Casey Foundation, KIDS COUNT Data Center,
 https://datacenter.kidscount.org.
 
 Department of Employment and Economic Development (DEED) (2021). 
-Monthly Employment. State and National Employment and Unemployment. https://mn.gov/deed/data/current-econ-highlights/state-national-employment.jsp 
+Monthly Employment. State and National Employment and Unemployment.
+https://mn.gov/deed/data/current-econ-highlights/state-national-employment.jsp 
 Accessed 2021-03-25
 
 RStudio Team (2020). RStudio: Integrated
