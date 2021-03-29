@@ -84,9 +84,10 @@ downloads. I dragged the files into the folder for my project, titled EDA. To
 which I then put into the data folder so that all of my data was in one place.
 
 Now I have three data files to use, one for poverty, and two for the 
-unemployment rate since I split them in half. To start it off, I took my poverty 
-data table and read it using the read_excel function. I then filtered out the LocationType column so that it only had results with County in them. I did the 
-same thing with the column DataFormat so that it only had Percent.
+unemployment rate since I split them in half. To start it off, I took my
+poverty data table and read it using the read_excel function. I then filtered 
+out the LocationType column so that it only had results with County in them. I 
+did the same thing with the column DataFormat so that it only had Percent.
 
 I then loaded in the two unemployment rate data sets, naming them Unemprate 1 
 and Unemprate 2. I took the two data sets and joined them so they were on one 
