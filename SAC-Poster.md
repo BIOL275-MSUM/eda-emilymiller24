@@ -83,6 +83,44 @@ excel files under downloads. I dragged the files into the folder for my
 project, titled EDA. To which I then put into the data folder so that
 all of my data was in one place.
 
+Now I have three data files to use, one for poverty, and two for the
+unemployment rate since I split them in half. To start it off, I took my
+poverty data table and read it using the read\_excel function. I then
+filtered out the LocationType column so that it only had results with
+County in them. I did the same thing with the column DataFormat so that
+it only had Percent.
+
+I then loaded in the two unemployment rate data sets, naming them
+Unemprate 1 and Unemprate 2. I took the two data sets and joined them so
+they were on one data set, to which I named unemployment.
+
+I changed the name of the column Year/Month so that it was just year and
+turned that column into an integer. To get the columns I need for the
+rest of my project, I used the select function and chose the year,
+county and unemployment columns.
+
+I then went back to the poverty data set and selected the TimeFrame,
+Location and Data columns. To which I then renamed so they would match
+the unemployment table. I changed TimeFrame to year, Location to county,
+and Data to poverty.
+
+I then took the unemployment data set and used the mutate function to
+get rid of the space and the word county from the county column. So that
+it didn’t say county after every single one. So that it would combine
+with the poverty data set later on.
+
+I also had to change the county Saint Louis, to St. Louis in the
+unemployment data set so that it matched the poverty one.
+
+After that was done, I went back to the poverty data set and used the
+mutate function to change the year as an integer and make sure poverty
+was a numeric property.
+
+Now, all of the columns are labeled the same thing in both the poverty
+and unemployment data sets. I combined the data sets and labeled the new
+data set pe. Now all of my data is on one set and I’m ready to start
+analyzing it.
+
 ## Results
 
 ## Discussion
