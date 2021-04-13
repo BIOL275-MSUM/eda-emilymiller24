@@ -1,13 +1,61 @@
-EDA Project
-================
-Emily Miller
-2021-03-09
 
-Welcome to my lab poster\!
+<img src="https://www2.mnstate.edu/uploadedImages/Content/Marketing/logos/MSUM_Signature_Vert_Color.jpg" alt="MSUM logo" width="200" style="float:right">
+
+# Correlation Between Poverty and Unemployment Rates by County in Minnesota
+
+Emily Miller & Chris Merkord
+
+Biosciences Department, Minnesota State University Moorhead, 1104 7th
+Avenue South, Moorhead, MN 56563 USA
 
 ## Abstract
 
+Poverty is an issue all around the world and I wanted to see what the
+specifics were like in my home state. I wanted to see if some of the
+causes for it had a major effect on it as well. I aimed to see if there
+was any connection to the poverty and unemployment rates in Minnesota. I
+examined how poverty is affected and thought that unemployment could be
+a good example to use.
+
+For my experiment, I will be using R Studio to look at the different
+datasets I have and create graphs out of it. I got the population
+poverty rates from the KIDS COUNT data center. I got the unemployment
+rates from the Minnesota Employment and Economic Development site.
+
+My hypothesis is that the poverty and unemployment rates have a
+relationship and progress along with each other. I expect the rates for
+both poverty and unemployment to correlate with each other during the
+years. Meaning that if one goes down, I expect the other to follow. And
+vice versa if one increases.
+
+Poverty and unemployment are both issues that everyday people have to
+deal with. I just aspired to see if these two issues somehow had a
+connection with each other.
+
 ## Introduction
+
+Poverty is a problem all around the globe. One that we should be
+focusing on more to ensure happy and healthy people everywhere. Poverty,
+to explain a little bit, is someone living in a society in where they do
+not have the basic needs for life. Such as food, water or clothing.
+
+There are about 40.6 million people just in the United states that are
+living in poverty. There are many factors that could affect poverty, a
+few being; access to food and water, having disabilities, lack of health
+care and many other factors. But one that I wanted to compare to
+poverty, was unemployment.
+
+Unemployment is another problem that we as people have to deal with.
+There are about 10 million unemployed people in the United States alone.
+Unemployed people not only are losing income, but they face many other
+challenges. Some so that lead to physical or mental problems.
+
+Unemployment is a factor that wages in on poverty, and I wanted to
+further look at the stats and see if there was a real correlation
+between the two things. So I dug into some data for both in relation to
+the state of Minnesota. I wanted to see what this looked like on a
+smaller level, and how it affected one state aside from them all. I also
+just wanted to see how it affected the state that I live in.
 
 ## Methods
 
@@ -123,9 +171,85 @@ analyzing it.
 
 ## Results
 
+![](SAC-Poster_files/figure-gfm/unnamed-chunk-1-1.png)<!-- -->
+
+The map above shows the unemployment rate of every county in the state
+of Minnesota for the year 2000. So the colors of the counties correlate
+with the legend to the side to show what the rate was for that county in
+that year. This map is called Map 1.
+
+![](SAC-Poster_files/figure-gfm/unnamed-chunk-2-1.png)<!-- -->
+
+The map above shows the unemployment rate of every county in the state
+of Minnesota for the year 2012. So the colors of the counties correlate
+with the legend to the side to show what the rate was for that county in
+that year. This map is called Map 2.
+
+![](SAC-Poster_files/figure-gfm/unnamed-chunk-3-1.png)<!-- -->
+
+The map above shows the poverty rate of every county in the state of
+Minnesota for the year 2000. So the colors of the counties correlate
+with the legend to the side to show what the rate was for that county in
+that year. This map is called Map 3.
+
+![](SAC-Poster_files/figure-gfm/unnamed-chunk-4-1.png)<!-- -->
+
+The map above shows the poverty rate of every county in the state of
+Minnesota for the year 2012. So the colors of the counties correlate
+with the legend to the side to show what the rate was for that county in
+that year. This map is called Map 4.
+
+![](SAC-Poster_files/figure-gfm/unnamed-chunk-5-1.png)<!-- -->
+
+The graph above shows the correlation between unemployment and poverty
+rates in the state of Minnesota. Each dot represents a year per county
+in Minnesota. So since there are 13 years and 87 counties in my data
+set, there should be 1131. The different colored dots show the changes
+in years. This graph is called Map 5.
+
 ## Discussion
 
-## Literature Cited
+To start off my explanation of my results, I’ll make a note that the
+first two maps are of the poverty levels. Then the second two Minnesota
+maps are comparing unemployment rates. And finally the last one is a
+correlation map between poverty and unemployment. I’ll go into more
+details on all of them as I discuss them.
+
+The first map is of Minnesota’s counties with the unemployment rate
+during the year 2000. So that means the colors shown on the map
+represent the counties unemployment data for that year. The lighter
+colors in the yellow and light greens show a lower unemployment rate for
+that specific county. So the counties on that map in the lower part of
+Minnesota have low unemployment rates, but those in NOrthern Minnesota
+have higher ones.
+
+Now the second map is also showing the unemployment rates in the
+counties in Minnesota, but this map was during the year 2012. This map
+shows that the colors change significantly between the two maps. This
+one is darker in color all around for the most part. The yellow coloring
+in the lower half of the state are now green in color and in the north
+the colors are a darker blue/green.
+
+This helps with my hypothesis, because over the thirteen years that I
+have represented in the maps, for the most part the unemployment rate
+increased.
+
+The third and fourth Minnesota maps represent the poverty rates in
+Minnesota instead of the unemployment rates. The third map is the year
+2000 and it represents the poverty rates per county of that year. This
+one has lighter colors like yellow and greens just like the unemployment
+map for the same year.
+
+The fourth map shows the poverty rates for the year 2012, so like the
+other maps, thirteen years are between the two maps. The fourth map is
+also a lot darker than it’s counterpart. With some dark blues in a few
+in the north and some darker greens in the south. But overall the
+counties are all just a little bit darker.
+
+This also helps with my hypothesis by showing that the poverty rate for
+the most part has increased.
+
+## References
 
 The Annie E. Casey Foundation, KIDS COUNT Data Center,
 <https://datacenter.kidscount.org>.
@@ -147,5 +271,3 @@ Software, 4(43), 1686, <https://doi.org/10.21105/joss.01686>
 
 Hadley Wickham and Jennifer Bryan (2019). readxl: Read Excel Files. R
 package version 1.3.1. <https://CRAN.R-project.org/package=readxl>
-
-## References
