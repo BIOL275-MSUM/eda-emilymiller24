@@ -130,12 +130,9 @@ cor(
   mergedcounties$unemployment
 )
 
+
 ggplot(mergedcounties,
        aes(x = poverty, y = unemployment, color = year)) +
-  geom_point() +
-  scale_fill_viridis_c(
-    limits = c(0.03,0.3),
-    direction = -1
-  )
+  geom_point()
 
 mergedcounties
