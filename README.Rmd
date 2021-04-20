@@ -379,7 +379,7 @@ year 2000. So that means the colors shown on the map represent the counties
 unemployment data for that year. The lighter colors in the yellow and light 
 greens show a lower unemployment rate for that specific county. So the counties 
 on that map in the lower part of Minnesota have low unemployment rates, but 
-those in NOrthern Minnesota have higher ones.
+those in Northern Minnesota have higher ones.
 
 Now map 2 is also showing the unemployment rates in the counties in Minnesota, 
 but this map was during the year 2012. This map shows that the colors change 
